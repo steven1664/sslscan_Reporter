@@ -1,0 +1,65 @@
+Version: [32m1.11.10-static[0m
+OpenSSL 1.0.2-chacha (1.0.2g-dev)
+[0m
+Testing SSL server [32mbadssl.com[0m on port [32m443[0m using SNI name [32mbadssl.com[0m
+
+  [1;34mSupported Server Cipher(s):[0m
+[32mPreferred[0m TLSv1.2  [32m128[0m bits  [32mECDHE-RSA-AES128-GCM-SHA256  [0m
+Accepted  TLSv1.2  [32m256[0m bits  [32mECDHE-RSA-AES256-GCM-SHA384  [0m
+Accepted  TLSv1.2  [32m128[0m bits  [32mDHE-RSA-AES128-GCM-SHA256    [0m
+Accepted  TLSv1.2  [32m256[0m bits  [32mDHE-RSA-AES256-GCM-SHA384    [0m
+Accepted  TLSv1.2  [32m128[0m bits  ECDHE-RSA-AES128-SHA256      
+Accepted  TLSv1.2  [32m128[0m bits  ECDHE-RSA-AES128-SHA         
+Accepted  TLSv1.2  [32m256[0m bits  ECDHE-RSA-AES256-SHA384      
+Accepted  TLSv1.2  [32m256[0m bits  ECDHE-RSA-AES256-SHA         
+Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-AES128-SHA256        
+Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-AES128-SHA           
+Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-AES256-SHA256        
+Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-AES256-SHA           
+Accepted  TLSv1.2  [32m112[0m bits  [33mECDHE-RSA-DES-CBC3-SHA       [0m
+Accepted  TLSv1.2  [32m128[0m bits  AES128-GCM-SHA256            
+Accepted  TLSv1.2  [32m256[0m bits  AES256-GCM-SHA384            
+Accepted  TLSv1.2  [32m128[0m bits  AES128-SHA256                
+Accepted  TLSv1.2  [32m256[0m bits  AES256-SHA256                
+Accepted  TLSv1.2  [32m128[0m bits  AES128-SHA                   
+Accepted  TLSv1.2  [32m256[0m bits  AES256-SHA                   
+Accepted  TLSv1.2  [32m112[0m bits  [33mDES-CBC3-SHA                 [0m
+Accepted  TLSv1.2  [32m256[0m bits  DHE-RSA-CAMELLIA256-SHA      
+Accepted  TLSv1.2  [32m256[0m bits  CAMELLIA256-SHA              
+Accepted  TLSv1.2  [32m128[0m bits  DHE-RSA-CAMELLIA128-SHA      
+Accepted  TLSv1.2  [32m128[0m bits  CAMELLIA128-SHA              
+[32mPreferred[0m TLSv1.1  [32m128[0m bits  ECDHE-RSA-AES128-SHA         
+Accepted  TLSv1.1  [32m256[0m bits  ECDHE-RSA-AES256-SHA         
+Accepted  TLSv1.1  [32m128[0m bits  DHE-RSA-AES128-SHA           
+Accepted  TLSv1.1  [32m256[0m bits  DHE-RSA-AES256-SHA           
+Accepted  TLSv1.1  [32m112[0m bits  [33mECDHE-RSA-DES-CBC3-SHA       [0m
+Accepted  TLSv1.1  [32m128[0m bits  AES128-SHA                   
+Accepted  TLSv1.1  [32m256[0m bits  AES256-SHA                   
+Accepted  TLSv1.1  [32m112[0m bits  [33mDES-CBC3-SHA                 [0m
+Accepted  TLSv1.1  [32m256[0m bits  DHE-RSA-CAMELLIA256-SHA      
+Accepted  TLSv1.1  [32m256[0m bits  CAMELLIA256-SHA              
+Accepted  TLSv1.1  [32m128[0m bits  DHE-RSA-CAMELLIA128-SHA      
+Accepted  TLSv1.1  [32m128[0m bits  CAMELLIA128-SHA              
+[32mPreferred[0m [33mTLSv1.0[0m  [32m128[0m bits  ECDHE-RSA-AES128-SHA         
+Accepted  [33mTLSv1.0[0m  [32m256[0m bits  ECDHE-RSA-AES256-SHA         
+Accepted  [33mTLSv1.0[0m  [32m128[0m bits  DHE-RSA-AES128-SHA           
+Accepted  [33mTLSv1.0[0m  [32m256[0m bits  DHE-RSA-AES256-SHA           
+Accepted  [33mTLSv1.0[0m  [32m112[0m bits  [33mECDHE-RSA-DES-CBC3-SHA       [0m
+Accepted  [33mTLSv1.0[0m  [32m128[0m bits  AES128-SHA                   
+Accepted  [33mTLSv1.0[0m  [32m256[0m bits  AES256-SHA                   
+Accepted  [33mTLSv1.0[0m  [32m112[0m bits  [33mDES-CBC3-SHA                 [0m
+Accepted  [33mTLSv1.0[0m  [32m256[0m bits  DHE-RSA-CAMELLIA256-SHA      
+Accepted  [33mTLSv1.0[0m  [32m256[0m bits  CAMELLIA256-SHA              
+Accepted  [33mTLSv1.0[0m  [32m128[0m bits  DHE-RSA-CAMELLIA128-SHA      
+Accepted  [33mTLSv1.0[0m  [32m128[0m bits  CAMELLIA128-SHA              
+
+  [1;34mSSL Certificate:[0m
+Signature Algorithm: [32msha256WithRSAEncryption[0m
+RSA Key Strength:    2048
+
+Subject:  *.badssl.com
+Altnames: DNS:*.badssl.com, DNS:badssl.com
+Issuer:   DigiCert SHA2 Secure Server CA
+
+Not valid before: [32mMar 18 00:00:00 2017 GMT[0m
+Not valid after:  [32mMar 25 12:00:00 2020 GMT[0m
