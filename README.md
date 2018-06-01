@@ -1,7 +1,6 @@
 # sslscan_Reporter
 Create Word Output for SSLScans
 
-#Example scans 
 
 
 #Perform a scan for a specific host
