@@ -39,7 +39,7 @@ def create_document(scaninput, reportout=fileout):
     for x in range(0, 2):
         cell2 = table.cell(0, x)
         run = cell2.paragraphs[0].runs[0]
-        run.font.name = 'Arial'
+        run.font.name = 'Hind'
         run.font.size = Pt(11)
         run.font.bold = True
         shading1 = 'shading' + str(x)
@@ -71,7 +71,7 @@ def create_document(scaninput, reportout=fileout):
         for y in range(1, numrows):
             cell2 = table.cell(y, x)
             run = cell2.paragraphs[0].runs[0]
-            run.font.name = 'Arial'
+            run.font.name = 'Hind'
             run.font.size = Pt(10)
             mod = y % 2
             if mod > 0:
