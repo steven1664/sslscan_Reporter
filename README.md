@@ -1,7 +1,7 @@
 # sslscan_Reporter
 **Create Word Output for SSLScans**
 
-#Usage
+# Usage
 
 **Perform a scan for a specific host**
 
