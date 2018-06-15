@@ -1,7 +1,7 @@
 # sslscan_Reporter
 Create Word Output for SSLScans
 
-* **Perform a scan for a specific host
+**Perform a scan for a specific host**
 
 ```python3 sslscan_Reporter.py -i 192.168.1.100:443```
 
