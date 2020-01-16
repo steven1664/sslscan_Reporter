@@ -26,7 +26,7 @@ if __name__ == "__main__":
     parser.add_argument("-i", "--hosts", help="Provide a a list of IPs or hosts to scan", nargs="+")
     parser.add_argument("-o", "--outfile", help="Provide name for the created scan output file")
     parser.add_argument("-n", "--nocertinfo", help="Do not include Certificate Information column in report output", action='store_true')
-    parser.add_argument("-x", "--xml", help="Provide an Nmap XML scan to parse and scan", nargs="+")
+    parser.add_argument("-g", "--gnmap", help="Provide an Nmap gnmap scan report to parse and scan", nargs="+")
     parser.add_argument("-r", "--review", help="Provide a file or files with sslscan output to review", nargs="+")
     args = parser.parse_args()
 
@@ -44,8 +44,8 @@ if __name__ == "__main__":
         scanoutput = sslscanOutput.getfile_scaninfo(sslout)
         createreport(scanoutput)
 
-    if args.xml:
-        nmapout = nmapParser.parsenmap(args.xml)
+    if args.gnmap:
+        nmapout = nmapParser.parsenmap(args.gnmap)
         sslout = sslscanner.sslscanner_hosts(nmapout)
         scanoutput = sslscanOutput.getfile_scaninfo(sslout)
         createreport(scanoutput)
