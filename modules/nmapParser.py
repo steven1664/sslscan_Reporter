@@ -1,7 +1,7 @@
 def parsenmap(files1):
     fileout_list = []
     for file1 in files1:
-        with open('nmap.gnmap', 'r') as f:
+        with open(file1, 'r') as f:
             for line in f:
                 if 'Ports: ' in line:
                     host = line.split()[1]
