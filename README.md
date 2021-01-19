@@ -3,7 +3,7 @@
 
 # Usage
 
-**Perform a scan for a specific host**
+**Perform a scan for a specific host and port**
 
   ```python3 sslscan_Reporter.py -i 192.168.1.100:443```
 
@@ -11,6 +11,6 @@
 
 ```python3 sslscan_Reporter.py -f hosts.txt -n -o ./fileScan_nocertinfo.docx```
 
-**Perform a scan based on nmap XML output in two different files with an outfile specified**
+**Perform a scan based on nmap gnmap output**
 
-```python3 sslscan_Reporter.py -x nmapscan1.xml nmapscan2.xml -o ./nmapScan_Output.docx```
+```python3 sslscan_Reporter.py -g nmapscan.gnmap -o ./nmapScan_Output.docx```
